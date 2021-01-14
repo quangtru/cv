@@ -1,128 +1,109 @@
-<!--DOCTYPE html = HTML5-->
 <!DOCTYPE html>
-<!--lang=language, dir= direction of the element'text, ltr=left to right-->
 <html lang="en" dir="ltr">
 
-<!--head= place for page's title-->
-
 <head>
-  <!--charset = character/symbol set (e.g.!%$), utf-8 = a standard encoding system, spezialized for diff. languages -->
-  <!--use meta charset=utf-8" for all website, being rended correctly-->
-  <!--always first line after <head>-->
   <meta charset="utf-8">
-  <!--discription of the website, content displayed when appeared in Google-->
-  <meta name="description" content="This is Quang's Personal Site">
-  <meta name="keywords" content="Quang Nhut Truong, Personal Site, CV">
-  <meta name="author" content="Quang Nhut Truong">
-  <!--title= page's title-->
-  <title> Quang's Personal Site </title>
+  <title>Quang Truong | Psychologist</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon-truong.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
-  <body>
-    <table cellspacing="30">
-      <!-- img =imgage, src =source, alt = alternative text when picture not rendered-->
-      <td><img src="Quang.png" width="250" height="250" alt="Quang profile picture"></td>
-      <td>
-        <h1>Quang Nhut Truong</h1>
-        <!-- i changes style = italic = kursiv,em emphasizes the word(s) & make it italic  -->
-        <!-- use <strong> to emphasizes the word(s) & make it bold (fett) -->
-        <p><em>Aspiring <strong>L&D</strong> Professional</em></p>
-        <p>A curious psychology student 👨‍🎓 with passions for mental health, sustainable lifestye & personnel development.</p>
-      </td>
-    </table>
-    <hr size="3" noshade>
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-      <!-- thead = table head, different sections head,body,foot help us style each one independently -->
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Work</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- tr= table row, td= table data (Inhalt der Zelle) -->
-        <tr>
-          <td>02/2015</td>
-          <td>Computer Science Intern at the Datacenter of the Hamburg Univesity of Technology, Germany</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td> <ul><ul><li>Learned HTML</li></ul></ul> </td>
-        </tr>
-        <tr>
-          <td>10/2013-11/2013</td>
-          <td>Electronics Intern at Mauer Electronics GmbH, Hamburg, Germany</td>
-        </tr>
-      </tbody>
-      <tfoot>
+<body>
+  <!-- div= group elements together, used for creating different sections on webpage -->
+  <div class="header-menu">
+    <a class="navi-bar" href="#about-me">ABOUT</a>
+    <a class="navi-bar" href="#my-skills">SKILLS</a>
+    <a class="navi-bar" href="#contact">CONTACT</a>
+  </div>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud">
+    <div class="intro">
+      <h1>I'm Quang.</h1>
+      <h2>an <span class="aspiring">aspiring</span> L&D professional.</h2>
+    </div>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+    <img class="mountain" src="images/mountain.png" alt="mountain">
+  </div>
 
-      </tfoot>
+  <div class="middle-container">
+    <div id="about-me" class="profile">
+      <img class="quang-foto" src="images/quang.png" alt="quang-foto">
+      <h2>Hello.</h2>
+      <p>What kind of world do you want to live in?</p>
+      <p>I envision a world in which all of us wake up motivated everyday and use our talents to make our individual contribution to society. Studying psychology helps me learn about vertical human development and understand how to unlock human potential as well as how to bring out the best in everyone.</p>
+      <p>In my free time, I enjoy talking to people and discovering new perspectives. At times, you will also find me in water swimming like a fish or in the kitchen trying out new recipes.</p>
+    </div>
+    <hr>
+    <div id="my-skills" class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row clearfix">
+        <img class="LMS" src="images/LMS.png" alt="LMS">
+        <h3>Learning Management System (LMS)</h3>
+        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+      </div>
+      <div class="skill-row clearfix">
+        <img class="digital-marketing" src="images/digital-marketing.png" alt="digital-marketing">
+        <h3>Digital Marketing</h3>
+        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+      </div>
+      <div class="skill-row clearfix">
+        <img class="wordpress-logo" src="images/wordpress-logo.png" alt="wordpress-logo">
+        <h3>WordPress</h3>
+        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+      </div>
+      <div class="skill-row clearfix">
+        <img class="project-management" src="images/project-management.png" alt="project-management">
+        <h3>Project Management</h3>
+        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+      </div>
 
-    </table>
-    <hr size="3" noshade>
-    <h3>Education</h3>
-    <!-- ul = unordered list| li = creat list with points ahead -->
-    <ul>
-      <li>University of Marburg, Germany</li>
-      <ul>
-        <li><em>B.Sc. Psychology</em></li>
-        <li> <em>Specialization: Human Resources Managment</em> </li>
-      </ul><br>
-      <li>Technical High School, Hamburg, Germany</li>
-    </ul>
-    <hr size="3" noshade>
-    <h3>Activities & Engagement</h3>
-    <ul>
-      <li>HR Team Member at <a target="_blank" href="https://www.enactus.de/hamburg/start">Enactus Hamburg</a> </li>
-      <ul>
-        <li><em>Organizing Team Building events</em></li>
-        <li><em>Developing Onboarding Programm for new members</em></li>
-      </ul><br>
-      <li>Volunteer at Initiative Psychology in Environmental Protection <a target="_blank" href="https://ipu-ev.de">IPU</a> </li>
-      <ul>
-        <li><em>Developing & organizing workshops</em></li>
-      </ul><br>
-      <!-- target="blank" = open link in a new tab, href = hyperlink reference -->
-      <li>Consultant at Student Consultancy <a target="_blank" href="https://www.phlink.de">Phlink</a></li>
-      <ul>
-        <li><em>Rekruiting & onboarding new members</em></li>
-        <li><em>Optimizing & maintaining Phlink's website</em></li>
-        <li><em>Developed & implemented Social Media campaigns</em></li>
-      </ul>
-    </ul>
-    <hr size="3" noshade>
-    <h3>Skills</h3>
-      <table cellspacing="10">
-        <tr>
-          <td>Learning Management System (LMS)</td>
-          <td>★★★★☆</td>
-        </tr>
-        <tr>
-          <td>Digital Marketing</td>
-          <td>★★★★☆</td>
-        </tr>
-        <tr>
-          <td>WordPress</td>
-          <td>★★★★☆</td>
-        </tr>
-        <tr>
-          <td>Project Management</td>
-          <td>★★★☆☆</td>
-        </tr>
-      </table>
-    <hr size="3" noshade>
-    <h3>Hobbies</h3>
-    <!-- ol = ordered list = 1,2,3 etc. -->
-    <ol>
-      <li>Learning languages</li>
-      <li>Swimming</li>
-      <li>Reading non-fiction books</li>
-    </ol>
-    <hr size="3" noshade>
-    <p>
-      <a target="_blank" href="contact-me.html">Contact me</a>
-    </p>
-  </body>
+<!-- List of skills in Table form
+      <div class="skills2">
+        <table cellspacing="10">
+          <tr class="skill">
+            <td>Learning Management System (LMS)</td>
+            <td class="skill-level">★★★★☆</td>
+          </tr>
+          <tr class="skill">
+            <td>Digital Marketing</td>
+            <td class="skill-level">★★★★☆</td>
+          </tr>
+          <tr>
+            <td>WordPress</td>
+            <td class="skill-level">★★★★☆</td>
+          </tr>
+          <tr>
+            <td>Project Management</td>
+            <td class="skill-level">★★★☆☆</td>
+          </tr>
+        </table>
+      </div>
+-->
+
+    </div>
+    <hr>
+    <div id="contact" class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+      <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+      <a class="button-contact" href="mailto:name@email.com">CONTACT ME</a>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <img class="linkedin-icon" href="https://www.linkedin.com/quangnhuttruong" src="images/linkedin-icon.png" alt="LinkedIn">
+    <a class="footer-link" href="https://www.linkedin.com/quangnhuttruong">LinkedIn</a>
+    <img class="facebook-icon" src="images/facebook-icon.png" alt="Facebook">
+    <a class="footer-link" href="https://facebook.com/quangnhut.truong.de">Facebook</a>
+    <img class="website-icon" src="images/website-icon.png" alt="Website">
+    <a class="footer-link" href="https://quangtru.github.io/cv">Website</a>
+    <a class="footer-link" href="credit.html" target="_blank">Credit</a>
+    <p class="copy-right">© 2021 Quang Nhut Truong.</p>
+  </div>
+
+  </div>
+</body>
 
 </html>
