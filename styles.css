@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  background-color: #e3fdfd;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  font-size: 6rem;
+  color: #71c9ce;
+  line-height: 1;
+}
+
+h2 {
+  color: #71c9ce;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  /*font-weight: normal;*/
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  /*font-weight: lighter;*/
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  margin: auto 25% auto 25%;
+  text-align: left;
+}
+
+td {
+  margin-right: 50px;
+}
+
+hr {
+  height: 0;
+  border-style: dotted none none none;
+  border-width: 10px;
+  border-color: lightgrey;
+  width: 5%;
+}
+
+ul {
+  text-align: left;
+}
+
+.profile {
+  width: 35%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+
+.skill-level {
+  transform: none;
+}
+
+.skill-level:hover {
+  transform: scaleX(1.1);
+  transition: 0.5s;
+}
+
+/* clearfix prevent elements (here: images)
+from overflowing the container */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.header-menu {
+  padding-top: 20px;
+}
+
+.navi-bar {
+  padding: 10px;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 80px;
+  margin: 10px 0 10px 0;
+}
+
+.middle-container {
+  background-color: #f7fbfc;
+  padding: 15px 0 15px 0;
+}
+
+.contact-me {
+  padding: 15px 0 15px 0;
+  width: 50%;
+  margin: 0 25% 0 25%;
+}
+
+.bottom-container {
+  padding: 40px 0 15px 0;
+}
+
+/*
+.aspiring {
+  text-decoration: underline;
+}
+*/
+
+.top-cloud {
+  position: absolute;
+  display: inline-block;
+  right: 25%;
+  top: 15%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  display: inline-block;
+  left: 25%;
+  bottom: 35%;
+}
+
+.mountain {
+  width: 450px;
+  padding-bottom: 10px;
+}
+
+.quang-foto  {
+  margin-top: 50px;
+  width: 13em;
+}
+
+.LMS {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.digital-marketing {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.wordpress-logo {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.project-management {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.credit-authors {
+  text-align: center;
+  width: 50%;
+  margin: 0 25% 0 25%;
+
+}
+
+.footer-link {
+  padding: 0 50px 0 0;
+}
+
+.linkedin-icon, .facebook-icon, .website-icon {
+  display: inline-block;
+  width: 12px;
+}
+
+/* CONTACT BUTTON */
+.button-contact {
+   border-radius: 5px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   letter-spacing: 2px;
+   font-size: 1rem;
+   font-weight: bold;
+   padding: 10px;
+   background-color: #7BD9DE;
+   text-decoration: none;
+   display: inline-block;
+   text-align: center;
+}
+
+.button-contact:hover {
+   background: #71CFD4;
+   text-decoration: none;
+}
