@@ -77,6 +77,7 @@ ul {
   transform: none;
 }
 
+
 .skill-level:hover {
   transform: scaleX(1.1);
   transition: 0.5s;
