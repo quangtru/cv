@@ -54,11 +54,15 @@ hr {
   border-style: dotted none none none;
   border-width: 10px;
   border-color: lightgrey;
-  width: 5%;
+  width: 50px;
 }
 
 ul {
   text-align: left;
+}
+
+.spacing {
+  height: 50px;
 }
 
 .profile {
@@ -68,7 +72,7 @@ ul {
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 0 auto;
   text-align: left;
 }
 
@@ -76,7 +80,6 @@ ul {
 .skill-level {
   transform: none;
 }
-
 
 .skill-level:hover {
   transform: scaleX(1.1);
@@ -102,7 +105,7 @@ from overflowing the container */
 .top-container {
   position: relative;
   padding-top: 80px;
-  margin: 10px 0 10px 0;
+  margin: 10px 0 0 0;
 }
 
 .middle-container {
@@ -111,7 +114,7 @@ from overflowing the container */
 }
 
 .contact-me {
-  padding: 15px 0 15px 0;
+  padding: 0 0 15px 0;
   width: 50%;
   margin: 0 25% 0 25%;
 }
